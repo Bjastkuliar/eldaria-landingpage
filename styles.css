@@ -1,0 +1,63 @@
+    header {
+        padding:20px;
+        text-align:center;
+    }
+    body {
+		background-image: url('/images/background.png');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		background-color: gray;
+		font-family: Papyrus, Verdana, Geneva, Tahoma, sans-serif;
+		padding:10px;
+	}
+    footer {
+		text-align:center;
+		color:#ff9933;
+		size:small;
+	}
+	#desc-grid {
+	    padding:15px;
+	    border-radius:25px;
+	    background-color: rgba(230,230,230, 0.7);
+
+	}
+	#desc-col {
+        margin:auto;
+	}
+	#description {
+        text-align:center;
+        font-weight:bold;
+	}
+	#server-ip {
+        padding:0px;
+	}
+	#col-ip-l {
+	    text-align:right;
+	}
+	#col-ip-r {
+        text-align:left;
+        margin:auto;
+    }
+	#grass{
+    	height:64px;
+    	width:64px;
+    }
+    #ip {
+    	font-weight:bold;
+        font-size:40px;
+        color: #4286f4;
+    }
+	#preview-image{
+	    border-radius:15px;
+	}
+	#socials {
+	    padding:15px;
+	    margin: auto;
+	}
+	#telegram-logo {
+	    height:128px;
+	}
+
+
+

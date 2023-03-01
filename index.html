@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="it-IT"><head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<meta property="og:site_name" content="Eldaria Network">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Vuoi un server dove essere una far parte di una community di amici? Un server Vanilla-Survival con monete fisiche? Eldaria è il posto giusto per te!">
+	<meta name="author" content="Zenote alias RedAlphard, Bjastkuliar aka Giovanna">
+	<meta name="keywords" content="minecraft, minealpha, minecraft it, server minecraft italia, survival, vanilla, minecraft 1.19">
+	<title>Eldaria – Sito Ufficiale</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="styles.css"/>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+</head>
+<header>
+	<img src="images/logo.png" class="img-fluid">
+</header>
+<body>
+<div class="container-fluid text-center bg-color-white" id="body-back">
+	<div class="row " id="desc-grid">
+		<div class="col" id="desc-col">
+			<div class="row" id="description">
+				<p>
+					Eldaria nasce nel 2018 dalla voglia di tenere una community unita,
+					dalla voglia di passare del tempo con altre utenti e mantenere amicizie anche a distanza.
+				</p>
+				<p>
+					È la community stessa che decide cosa vuole dal proprio server
+					e la rendiamo partecipe nelle decisioni di gioco ove possibile.
+				</p>
+				<p>
+					Puntiamo alla semplicità che solo minecraft può dare, senza l'uso di comandi
+					che non siano voluti da un normale vanilla: gli spostamenti sono tutti
+					via mondo così da godersi le strade facendo fruire interazioni dei player.
+				</p>
+			</div>
+			<div class="container text-center" onclick="myFunction()">
+				<div class="row" id="server-ip">
+					<div class="col-4" id="col-ip-l">
+						<img src="images/grass.webp" id="grass" class="image-fluid">
+					</div>
+					<div class="col-8" id="col-ip-r">
+						<span id="ip">mc.eldaria.it</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col" id="image-preview">
+			<img src="images/Borgo-di-Dragon-Hallow.png" alt="Borgo di Dragon Hallow" class="img-fluid" id="preview-image">
+		</div>
+	</div>
+</div>
+</body>
+<script>
+function myFunction() {
+  // Get the text field
+  var copyText = document.getElementById("ip").innerHTML;
+
+  // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText);
+
+  // Alert the copied text
+  alert("L'IP è stato copiato!");
+  //console.log("Copied the text: " + copyText);
+}
+</script>
+<footer>
+	<div class="col">
+		<div class="row align-items-start" id="socials">
+			<div class="col">
+				<a href="https://discord.eldaria.it/" title="Entra nel nostro discord!">
+					<img class="img-fluid" src="images/discord.png" alt="Discord">
+				</a>
+			</div>
+			<div class="col">
+				<a href="https://t.me/mceldaria" title="Entra nel nostro Gruppo Telegram!">
+					<img class="img-fluid" src="images/telegram.png" alt="Telegram" id="telegram-logo">
+				</a>
+			</div>
+			<div class="col">
+				<a href="https://www.instagram.com/eldaria.it/" title="Il nostro profilo Instagram!">
+					<img class="img-fluid" src="images/instagram.png" alt="Instagram">
+				</a>
+			</div>
+			<div class="col">
+				<a href="https://vota.eldaria.it/" title="Supportaci su MineAlpha!">
+					<img class="img-fluid" src="images/minealpha.png" alt="MineAlpha">
+				</a>
+			</div>
+			<div class="col">
+				<a href="https://mc.eldaria.it/map/index.html" title="Vedi la mappa dinamica!">
+					<img class="img-fluid" src="images/map.png" alt="Mappa">
+				</a>
+			</div>
+		</div>
+		<div class="row">
+			<span id="copyright">&copy;2021-2023 Eldaria.it | Tutti i diritti riservati</span>
+		</div>
+	</div>
+</footer>
+</html>
